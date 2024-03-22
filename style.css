@@ -121,4 +121,23 @@ footer {
     margin-top: 20px;
     color: #FFF;
     font-size: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+footer a {
+    color: white;
+    text-overflow: ellipsis;
+    text-decoration-line: none;
+}
+
+footer a h3 {
+    text-align: center;
+}
+
+footer a:hover {
+    color: black;
 }
